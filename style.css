@@ -350,7 +350,7 @@ section .title::after{
 
 /* team section start */
 .teams .title::after{
-    content: "who with me";
+    content: "who with";
     background: #111;
 }
 .teams{
@@ -396,6 +396,58 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
+
+/* team section start */
+/* team section start */
+.nabin .title::after{
+    content: "what i have made";
+    background: #111;
+}
+.nabin{
+    color: #fff;
+    background: #111;
+}
+.nabin .title::before{
+    background: #fff;
+}
+.nabin .carousel .card{
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center; 
+    transition: all 0.3s ease;
+}
+.nabin .carousel .card:hover{
+    background: #584068;
+}
+.nabin .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.nabin .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.nabin .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.nabin .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #427a92;
+    transition: all 0.3s ease;
+}
+.nabin .carousel .card:hover img{
+    border-color: #fff;
+}
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -513,13 +565,13 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #e6e0e0d1;
     padding: 20px 23px;
-    color: #fff;
+    color: black;
     text-align: center;
 }
 footer span a{
-    color: #427a92;
+    color: teal;
     text-decoration: none;
 }
 footer span a:hover{
