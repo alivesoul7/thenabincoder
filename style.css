@@ -564,11 +564,12 @@ section .title::after{
     background: none;
 }
 /* footer section styling */
-footer{
-    background: #e6e0e0d1;
-    padding: 20px 23px;
-    color: black;
+/* styles.css */
+footer {
+    background-color:rgb(7, 6, 6);
+    color: #fff;
     text-align: center;
+    padding: 15px;
 }
 footer span a{
     color: teal;
@@ -577,6 +578,20 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
 
 /* responsive media query start */
 @media (max-width: 1300px){
