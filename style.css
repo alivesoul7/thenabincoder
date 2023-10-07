@@ -350,7 +350,7 @@ section .title::after{
 
 /* team section start */
 .teams .title::after{
-    content: "who with";
+    content: "who with me";
     background: #111;
 }
 .teams{
